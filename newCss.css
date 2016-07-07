@@ -1,0 +1,80 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+html, body {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imgDiv {
+    height: 100%;
+}
+
+.imgDiv img{
+    height: 100%; 
+    width: auto;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+.fullHeight {
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: leagueGothic;
+    src: url(https://github.com/theleagueof/league-gothic/blob/master/LeagueGothic-Italic.otf) format('embedded-opentype');
+}
+
+
+.navBar {
+    background-color: black;
+    color: white; 
+    height: 5%; 
+    text-align: center;
+    font-size: 1.5em; 
+    float: none;
+    text-align: center;
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.tab {
+    bottom: 0;
+    height: 100%;
+}
+
+.tab:hover {
+    background-color: grey;
+}
+
+.headerText {
+    font-family: 'Oswald', sans-serif;
+    font-size: 200px;
+    font-size: 9.5vw;
+    color:#0A7F9C;
+}
+
